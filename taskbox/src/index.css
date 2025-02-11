@@ -15,8 +15,8 @@ body {
   color: #333;
   font-size: 16px;
   background-color: #26c6da;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
+  /* -webkit-text-size-adjust: 100%; */
+  /* -ms-text-size-adjust: 100%; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -50,7 +50,7 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   cursor: pointer;
-  -webkit-appearance: button;
+  /* -webkit-appearance: button; */
 }
 
 @keyframes spin {
@@ -327,7 +327,7 @@ textarea {
 }
 
 .list-item.TASK_ARCHIVED input[type="text"] {
-  color: #a0aec0;
+  color: #4a5568;
   text-decoration: line-through;
 }
 
